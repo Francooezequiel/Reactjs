@@ -1,0 +1,27 @@
+.Contenedor {
+    width: 100px;
+    margin: 0 auto;
+}
+.ControladorBoton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191933;
+    gap: 50px;
+    color: coral;
+}
+
+.BotonCarrito {
+    background-color: #191933;
+    color: coral;
+}
+
+.Boton {
+    color: coral;
+    background-color: #191933;
+}
+
+.SumayResta {
+    background-color: #191933;
+    color: coral;
+}

@@ -1,14 +1,15 @@
+import { Link, NavLink } from "react-router-dom"
 import CartWidget from "../CartWidget/CartWidget"
-import gamerr from "../NavBar/ListaConteiner/img/gamerr.jpg"
+import gamerr from "../itemRetailContainer/img/gamerr.jpg"
 
 const NavBar = () => {
     return (
         <nav className="navbar">
-            <img src={gamerr} alt="logo-gamerr" className="logo-gamerr"/>
+            <div><Link  to="/"  className="logo-gamerr"><img src={gamerr} alt="logo-gamerr"/></Link> </div>
             <div className="navbar-conteiner">
-                <button className="botones">Procesador</button>
-                <button className="botones">MotherBoard</button>
-                <button className="botones">Fuente de almacenamiento</button> 
+                <NavLink to={`/category/Procesadores`}>Procesadores</NavLink>
+                <NavLink to={`/category/mother`}>MotherBoard</NavLink>
+                <NavLink to={`/category/Fuentes de almecanamiento`}>Fuentes del almacenamiento</NavLink>
                 <CartWidget/>
             </div>
         </nav>
