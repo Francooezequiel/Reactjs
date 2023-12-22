@@ -1,0 +1,16 @@
+
+.card-conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 20px;
+
+}
+
+.cardicon {
+
+    height: 30px;
+    margin: auto;
+}

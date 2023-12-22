@@ -1,18 +1,12 @@
-.Listgroup{
+.Listgroup {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
+.divlistaconteiner{
+display: flex;
+justify-content: center;
 
-.Listgroup img { 
-        width: 23%;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        overflow: hidden;
-        margin-bottom: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 15px;
-    }
+}

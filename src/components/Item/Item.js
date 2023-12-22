@@ -1,24 +1,19 @@
 import { Link } from 'react-router-dom';
 import getProductsByCategory from '../../asyncMock'
+import item from "./Item.css"
 
 const Item = ({id,title,image,price,category,stock}) => {
     return (
-        <article className='Articulo'>
-            <header>
-                <h2>{title}</h2>
-            </header>
-            <picture>
-                <img src={image} alt={title} />
-            </picture>
-            <section>
-                <p>Precio: {price}</p>
-                <p>Stock Disponible{stock} </p>
-                <p>category{category} </p>
-            </section>
-            <footer>
+        <div className='articulo'>
+            <div className='divArticulo'>
+                <h2 className='informacion'>{title}</h2>
+                <img className='card' src={image} alt={title} />
+                <p className='precio'>Precio: {price}</p>
+                <p className='stock'>Stock Disponible{stock} </p>
+                <p className='category'>category{category} </p>
                 <Link to={`/item/${id}`}>Ver detalle</Link>
-            </footer>
-        </article>
+            </div>
+        </div>
     )
 }
 

@@ -1,0 +1,48 @@
+.carritoybotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    gap: 8px;
+}
+
+.estilobotones{
+    width: 15%;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #191933;
+}
+.Button {
+    height: 20px;
+    width: 100px;
+    background-color: coral;
+}
+
+.productcarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    padding: 2% 4%;
+    font-size: 30px;
+    border: solid #191933;
+    background-color: #191933;
+    color: coral;
+}
+
+.Option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 100px;
+    background-color: #191933;
+    color: coral;
+    font-size: 25px;
+    max-width: 250px;
+    
+}

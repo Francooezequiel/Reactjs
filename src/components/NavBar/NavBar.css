@@ -1,6 +1,19 @@
 
 .logo-gamerr {
-    padding: 10px;
-    height: 200px;
-    width: 200px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
     }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 35px;
+        color: coral;
+        margin: auto;
+        background-color: #191933;
+    
+        
+        
+    }
+    
